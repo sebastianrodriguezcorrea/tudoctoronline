@@ -1,0 +1,7 @@
+{
+    "_id" : ObjectId("636b0879449894f65fa7a813"),
+    "id" : "01",
+    "nombre" : "Juan",
+    "num_ced" : "123",
+    "telefono" : "123"
+}
