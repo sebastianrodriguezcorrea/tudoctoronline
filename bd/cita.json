@@ -1,0 +1,40 @@
+{
+    "_id" : ObjectId("636b0b5269703841ec06528e"),
+    "id" : "01",
+    "fecha_cita" : "01-03-2023",
+    "hora_cita" : "4:45 PM",
+    "descripcion" : "cualquier cosa",
+    "consultorio" : {
+        "id" : "01",
+        "num_consultorio" : "01",
+        "descripcion" : "cualquier cosa",
+        "doctor" : {
+            "id" : "00",
+            "nombre" : "Carlos",
+            "num_ced" : "123",
+            "telefono" : "123",
+            "especialidad" : {
+                "id_especialidad" : "1",
+                "nombre" : "odontologo",
+                "descripcion" : "cualquier cosa"
+            }
+        }
+    },
+    "paciente" : {
+        "id" : "01",
+        "nombre" : "Juan",
+        "num_ced" : "123",
+        "telefono" : "123"
+    },
+    "doctor" : {
+        "id" : "00",
+        "nombre" : "Carlos",
+        "num_ced" : "123",
+        "telefono" : "123",
+        "especialidad" : {
+            "id_especialidad" : "1",
+            "nombre" : "odontologo",
+            "descripcion" : "cualquier cosa"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "_id" : ObjectId("636b098d449894f65fa7a814"),
+    "id" : "01",
+    "num_consultorio" : "01",
+    "descripcion" : "cualquier cosa",
+    "doctor" : {
+        "id" : "00",
+        "nombre" : "Carlos",
+        "num_ced" : "123",
+        "telefono" : "123",
+        "especialidad" : {
+            "id_especialidad" : "1",
+            "nombre" : "odontologo",
+            "descripcion" : "cualquier cosa"
+        }
+    }
+}
