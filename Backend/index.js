@@ -1,14 +1,7 @@
-//Funcion constructora
-function PersonaC(nombre, edad) {
-  this.nombre = nombre;
-  this.edad = edad;
-}
+var app = require('./app');
+var mongoose=require('./ app/conexBD/conn');
+var port = 4000;
+app.listen(port, () =>{
+        console.log("servidor corriendo ok")
+});
 
-const persona1 = new PersonaC("Nestor", 22);
-
-//Funcion
-function Persona(nombre, edad) {
-  return { nombre, edad };
-}
-
-const persona2 = Persona("Leidy", 25);
