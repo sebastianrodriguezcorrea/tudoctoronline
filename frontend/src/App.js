@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Login from './pages/auth/login';
+
+//Estilos
 import './App.css';
+import Home from './pages/admin/home';
 
 function App() {
+
+  const titulo =
+    <div>
+      <h1 style={{color:"red", fontFamily:'cursive'}}>Tu doctor online</h1>
+      <p>Bienvenido al software especializado en el tratamiento de tu salud</p>
+    </div>
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home />
     </div>
   );
 }
